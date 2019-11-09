@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOVIEFLIX</title>
+  <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+</head>
+<body>
+  <div class="topnav">
+    <a href="" class="active">MOVIEFLIX</a>
+  </div>
+<div class="home-page-header-container">
+  <h1>EXPLORE THE MOVIES</h1>
+  <div class="search-container">
+    <form>
+      <input type="text" id="movieName" class="searchbar" placeholder="Search for Movies.." onkeyup="searchMoviesOnTypeAhead()"/>
+    </form> 
+  </div>
+  <div id="main" class="div-main"></div>
+  <ul id="movies" class="ul-list"></ul>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
